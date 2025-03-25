@@ -28,3 +28,17 @@ function clickar () {
     audio.play();
 }
 */
+
+function tocarcontato(videoId) {
+    var video = document.getElementById(videoId);
+    
+    video.play();
+}
+
+function overcontato() {
+    var audio = document.getElementById("escolher");
+audio.currentTime = 0;
+audio.volume = 0.1;
+audio.play();
+
+}

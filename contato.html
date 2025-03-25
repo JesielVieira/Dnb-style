@@ -2,8 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-video.css">
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="Midias/tocar-parar-video-previas.js"></script>
+    <script type="text/javascript" src="Midias/tocar-parar-video-rede-socias.js"></script>
 </head>
 <body id="contato">
         
@@ -13,7 +17,7 @@
 
     <script>
         var audio = document.getElementById("myaudio3");
-        audio.volume = 0.03;
+        audio.volume = 0.01;
       </script>
 
 
@@ -54,12 +58,57 @@
                             </div>
                             
                         </div>
-                    
+                                <div id="liganoiz"> </div>
+                    <div id="container-contato">  
+                        
+                        <div id="contato-zona1"> 
+                            
+                            <h1>Contatos Diretos</h1>
+                                
+                                <div id="botoes-contato">
+
+                                 <span onmouseover="overcontato()"> <a href=""><button type="button" id="botao-contato">Whatsapp</button></a> </span> <br>   
+                                  <span onmouseover="overcontato()"> <a href=""><button type="button" id="dm-insta">DM Instagram</button></a> </span>  <br>  
+                                  <span onmouseover="overcontato()"> <a href=""><button type="button" id="facebook">Facebook</button></a> </span>   <br>
+
+                                
+                                </div> 
+                        
+                            </div>
+
+                        <div id="contato-zona2"> 
+                        
+                        <div class="video-container">
+
+                            <a href="mailto:quebradaalternativa@gmail.com.br?subject=Salve Bro&body=Tenho umas acapellas pra te enviar">
+
+                            <video onmouseover="tocarcontato('video-contato')" id="video-contato">
+                                <source src="Midias/video/email_1.mp4" type="video/mp4">
+                            </video>
+                        
+                        </a>
+
+
+                        </div>    
+
+                        </div>
+
+                    </div>      
+
+
+
+<div style=
+"clear: both;">   
+</div>                                        
                         <div id="rodape">
                             
                         </div>
 
                 </div>
+
+                <audio id="escolher" preload="auto">
+                    <source src="Midias/music/selecionar.wav">
+                </audio>
 
 </body>
 </html>

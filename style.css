@@ -95,6 +95,7 @@ background-color: rgb(255, 255, 255);
     width: 100%;
     height: 100%;
     min-width: 200px;
+    
 }
 
 .zona {
@@ -149,5 +150,68 @@ background-color: rgb(255, 255, 255);
     width: 100%;
     height: 100px;
     min-width: 1150px; 
+}
+
+#liganoiz{
+    background: url(Midias/video/liganoizcompress.gif) top center no-repeat;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+    min-width: 1150px; 
+}
+
+#container-contato{
+    width: 100%;
+    margin-top: 10px;
+    min-width: 1150px; 
+    
+}
+#contato-zona1 {
+    width: 25%;
+    margin-top: 10px;
+    margin-left: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#contato-zona2 {
+    width: 70%;
+    margin-top: 10px;
+    margin-right: 15px;
+    
+    float: right;
+}
+
+#video-contato{
+    width: 100%;
+    height: 100%;
+}
+
+button{
+    width: 85%;
+    height: 155px;
+    margin: 10px;
+    padding: 0;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    background: #0e0e0e;
+    color: rgb(255, 255, 255);
+}
+
+#botoes-contato {
+    border-top: 1px solid rgb(255, 255, 255);
+    padding: 15px;
+}
+
+button:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    scale: 1.05;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: url(Midias/image/cursor.cur), auto; 
 
 }
