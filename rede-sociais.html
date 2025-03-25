@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-video.css">
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="Midias/tocar-parar-video-previas.js"></script>
+    <script type="text/javascript" src="Midias/tocar-parar-video-rede-socias.js"></script>
+</head>
+<body id="rede-sociais">
+    
+    <audio id="myaudio2" src="Midias/music/background-music.mp3" autoplay loop>
+        <a href="Midias/music/background-music.mp3" download="backgound-music"></a>.
+    </audio>
+
+    <script>
+        var audio = document.getElementById("myaudio2");
+        audio.volume = 0.01; 
+      </script>
+
+
+        <div id="principal">
+                
+                <div id="cabecalho">
+                    
+                    <a href="index.html"> <img id="logo-img" src="Midias/video/logo-girando.gif" alt="" width="200px" > </a> 
+<div style=
+"clear: both;">
+</div>
+                        <div id="conteudo-cabecalho">
+                            
+                            <div id="logo-text">
+                            
+                                <a href="index.html"><h1>Quebrada Alternativa</h1></a>
+                            
+                            </div>
+                                
+                            <div id="menu">   
+                                
+                                    <span  onmouseover="menuover()" class="previas">
+                                        <a href="index.html">Prévias</a>
+                                    </span>
+                                    
+                                    <span onmouseover="menuover()" class="rede-sociais">
+                                        <a href="rede-sociais.html">Rede-sociais</a>
+                                    </span>
+                                    
+                                    <span onmouseover="menuover()" class="contato">
+                                        <a href="contato.html">Contato</a>
+                                    </span>
+                           
+
+                            </div> 
+
+                            </div>
+                            
+                        </div>
+                    
+                        <div id="video-quente">
+                           
+                        </div>
+                        
+                    <div id="social-container">
+                        
+                        
+                        <div onclick="clickar()" onmouseover="tocarmusica()" class="zona-social">
+                            <a target="_blank" rel="noreferrer noopener" href="https://open.spotify.com/intl-pt/artist/3layDaK22XFY2vyugav8jt?si=GNA8TMeiQD6wixOTbP0baQ">                      
+                                <video id="social-spot" onmouseover="tocarvideo('social-spot')" onmouseout="pararvideo('social-spot')" loop> 
+                                    <source src="Midias/video/videos rede sociais/Spot.mp4" type="video/mp4">     
+                                </video>
+                            </a>  
+                        </div>
+
+                        <div onclick="clickar()" onmouseover="tocarmusica()" class="zona-social">
+                            <a target="_blank" rel="noreferrer noopener" href="https://www.instagram.com/quebrada_alternativa/">                      
+                                <video id="social-insta" onmouseover="tocarvideo('social-insta')" onmouseout="pararvideo('social-insta')" loop> 
+                                    <source src="Midias/video/videos rede sociais/instagram.mp4" type="video/mp4">     
+                                </video>
+                            </a>  
+                        </div>
+
+
+                        <div onclick="clickar()" onmouseover="tocarmusica()" class="zona-social">
+                            <a target="_blank" rel="noreferrer noopener" href="https://soundcloud.com/quebrada-alternativa">                      
+                                <video id="social-sound" onmouseover="tocarvideo('social-sound')" onmouseout="pararvideo('social-sound')" loop> 
+                                    <source src="Midias/video/videos rede sociais/sound.mp4" type="video/mp4">     
+                                </video>
+                            </a>  
+                        </div>
+
+                        <div onclick="clickar()" onmouseover="tocarmusica()" class="zona-social">
+                            <a target="_blank" rel="noreferrer noopener" href="https://www.tiktok.com/@quebrada_alternativa">                      
+                                <video id="social-tok" onmouseover="tocarvideo('social-tok')" onmouseout="pararvideo('social-tok')" loop> 
+                                    <source src="Midias/video/videos rede sociais/tok.mp4" type="video/mp4">     
+                                </video>
+                            </a>  
+                        </div>
+
+                        <div onclick="clickar()" onmouseover="tocarmusica()"  class="zona-social">
+                            <a target="_blank" rel="noreferrer noopener" href="https://www.youtube.com/@QuebradaAlternativa">                      
+                                <video id="social-you" onmouseover="tocarvideo('social-you')" onmouseout="pararvideo('social-you')" loop> 
+                                    <source src="Midias/video/videos rede sociais/youtube.mp4" type="video/mp4">     
+                                </video>
+                            </a>  
+                        </div>
+
+                    </div>
+                            <div style="clear: both;"> </div>
+
+                                <div id="rodape">
+                            
+                                </div>
+
+                </div>
+
+                <audio id="escolher" preload="auto">
+                    <source src="Midias/music/selecionar.wav">
+                </audio>
+
+                <audio id="clickar" preload="auto">
+                    <source src="Midias/music/clickar.wav">
+                </audio>
+
+                <audio id="escolhermenu" preload="auto">
+                    <source src="Midias/music/hovermenu.wav">
+                </audio>
+</body>
+</html>

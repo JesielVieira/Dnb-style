@@ -1,0 +1,153 @@
+body {
+    font-family: 'Trebuchet MS';
+    font-size: 16px;
+    position: relative;
+    background: rgb(0, 0, 0) url(Midias/video/fundograin.gif);
+    
+
+}
+
+#cabecalho h1 {
+    font-size: 3em;
+    color: aliceblue;
+
+}
+
+#previas .previas a, 
+#contato .contato a, 
+#rede-sociais .rede-sociais a { 
+    
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    
+}
+
+#logo-text a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#logo-text a:hover {
+    color: rgb(0, 0, 0);
+}
+
+#menu a {
+    text-decoration: none;
+    font-size: 2em;
+    padding: 0 20px;
+    color: rgb(255, 255, 255);
+    
+}
+
+#menu a:hover{
+font-weight: bold;
+color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+}
+
+
+#principal {
+    width: 85%; /*1625px*/
+    margin: 0 auto;
+    
+}
+
+#cabecalho {
+    background: #0e0e0e;
+    border-radius: 10px;
+    min-width: 1150px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#conteudo-cabecalho {
+    text-align: center;
+    padding: 40px;
+    margin-top: -235px;
+    margin-right: 180px;
+    
+    
+}
+
+#logo-img {
+    float: left;
+    margin-left: 10px;
+    
+}
+
+
+#container-previas {
+    width: 100%;
+    margin-top: 10px;
+    min-width: 1150px; 
+}
+
+#social-container {
+    width: 100%;
+    margin-top: 15px;
+    min-width: 1150px;
+}
+
+#container-previas video {
+    width: 100%;
+    height: 100%;
+    min-width: 200px;
+}
+
+.zona {
+    float: left;
+    width: 32%; /*517px */
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+.zona-social {
+    float: left;
+    width: 32%; /*517px */
+    margin-left: 15px;
+    margin-bottom: 10px;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.zona-social video {
+    width: 100%;
+    height: 100%;
+    min-width: 200px; 
+}
+
+
+#video-previa {
+    background: url(Midias/video/previacompress.gif) top center no-repeat;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+    min-width: 1150px; 
+}
+
+#video-quente {
+    background: url(Midias/video/quentecompress.gif) top center no-repeat;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+    min-width: 1150px; 
+}
+
+
+#rodape {
+
+    background: url(Midias/video/rodapé.gif) top center no-repeat;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: 100px;
+    min-width: 1150px; 
+
+}

@@ -1,0 +1,11 @@
+video:hover {
+    opacity: 1;
+    scale: 1.02;
+    cursor: url(Midias/image/cursor.cur), auto; 
+
+}
+
+video {
+    opacity: 0.8;
+}
+
